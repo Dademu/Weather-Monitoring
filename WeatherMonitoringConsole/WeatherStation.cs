@@ -14,7 +14,6 @@ public class WeatherStation
             case "ForecastDisplay":
                 return new ForecastDisplay();
             default:
-                throw new ArgumentException("Please input one of the following options to proceed with the operation: CurrentConditionsDisplay, StatisticsDisplay, ForecastDisplay");
-            }
+                throw new ArgumentException("Please input one of the following options to proceed with the operation: CurrentConditionsDisplay, StatisticsDisplay, ForecastDisplay");            }
         }
     }
